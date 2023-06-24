@@ -1,4 +1,6 @@
 list:
+  - name: Kurator TnM
+    description: Antara Windu sama Ara pokoknya
   - name: Hasbi
     description: Hasbi anjing pokoknya, TITIK
   - name: Nopal
@@ -9,4 +11,5 @@ list:
     description: Temen yang tititnya gabisa diatur, pake kedok tanya serius ato enggak. Brengsek mah brengsek ae.
   - name: Gege / Ucok
     description: Cowo sok ngatur. Suami bukan, bapak bukan. Ngebacot
-  
+  - name: Jarwo
+    description: tetangga yang suka minjem mobil orang
