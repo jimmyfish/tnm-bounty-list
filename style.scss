@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'kmzwa8awaa';
+    src: url('./fonts/kmzwa8awaa-200.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'kmzwa8awaa';
+    src: url('./fonts/kmzwa8awaa-d.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'kmzwa8awaa';
+    src: url('./fonts/kmzwa8awaa-bc.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    font-family: 'kmzwa8awaa', sans-serif;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/1493.jpg');
+    min-height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-weight: 200;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .bounty-title {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 20px 0;
+        text-align: center;
+        font-size: 3em;
+        // color: rgb(231, 76, 60);
+        color: rgb(192, 57, 43);
+    }
+
+    .container {
+
+        .rank-1,
+        .rank-2,
+        .rank-3 {
+            object-fit: cover;
+        }
+
+        .rank-1 {
+            width: 350px;
+            height: 350px;
+        }
+
+        .rank-2,
+        .rank-3 {
+            width: 200px;
+            height: 200px;
+
+            &.img {
+                image-resolution: 50%;
+            }
+        }
+
+        .top-3-rank {
+            margin-top: 50px;
+        }
+
+        .top-3 {
+            min-height: 50vh;
+        }
+
+        .col {
+            .copy-text {
+                min-height: 256px;
+                max-width: 90%;
+                margin: 20px auto 0;
+                text-align: center;
+                background: rgba(52, 73, 94, .5);
+                padding: 20px;
+                border-radius: 5px;
+
+                h1 {
+                    font-size: 2em;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: rgb(26, 188, 156);
+                }
+
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .item-runner-up {
+        background: rgba(52, 73, 94, .5);
+        margin-bottom: 10px;
+        padding: 20px;
+
+        &:first-child {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        &:last-child {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .item-title {
+            font-size: 2em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: rgb(26, 188, 156);
+        }
+
+        .item-description {
+            font-weight: 200;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        .container {
+            .runner-up {
+                margin-top: 100px;
+            }
+        }
+    }
+    
+}

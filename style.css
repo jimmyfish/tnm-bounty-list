@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "kmzwa8awaa";
+  src: url("./fonts/kmzwa8awaa-200.ttf") format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "kmzwa8awaa";
+  src: url("./fonts/kmzwa8awaa-d.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "kmzwa8awaa";
+  src: url("./fonts/kmzwa8awaa-bc.ttf") format("truetype");
+  font-weight: 700;
+}
+body {
+  font-family: "kmzwa8awaa", sans-serif;
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/1493.jpg");
+  min-height: 98vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  font-weight: 200;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body .bounty-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(192, 57, 43);
+}
+body .container .rank-1,
+body .container .rank-2,
+body .container .rank-3 {
+  object-fit: cover;
+}
+body .container .rank-1 {
+  width: 350px;
+  height: 350px;
+}
+body .container .rank-2,
+body .container .rank-3 {
+  width: 200px;
+  height: 200px;
+}
+body .container .rank-2.img,
+body .container .rank-3.img {
+  image-resolution: 50%;
+}
+body .container .top-3-rank {
+  margin-top: 50px;
+}
+body .container .top-3 {
+  min-height: 50vh;
+}
+body .container .col .copy-text {
+  min-height: 256px;
+  max-width: 90%;
+  margin: 20px auto 0;
+  text-align: center;
+  background: rgba(52, 73, 94, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+body .container .col .copy-text h1 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(26, 188, 156);
+}
+body .container .col .copy-text p {
+  text-align: left;
+}
+body .item-runner-up {
+  background: rgba(52, 73, 94, 0.5);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+body .item-runner-up:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+body .item-runner-up:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body .item-runner-up .item-title {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(26, 188, 156);
+}
+body .item-runner-up .item-description {
+  font-weight: 200;
+}
+
+@media screen and (min-width: 768px) {
+  body .container .runner-up {
+    margin-top: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
